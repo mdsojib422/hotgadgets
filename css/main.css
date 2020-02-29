@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav li a{
+    color: #949494;
+    font-weight: 600;
+}
+.carousel-indicators li{
+    background-color: black!important;
+}
+#hotgadget_carousel_indicators {
+    position: absolute;
+    bottom: -32px!important;
+    right: unset;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding: 0!important;
+    margin: 0!important;
+    list-style: none;
+}
+#hotgadget_carousel_indicators li.active {
+    background-image: linear-gradient(240deg,orange,tomato)!important;
+    width: 25px!important;   
+}
+#hotgadget_carousel_indicators li {  
+    width: 20px; 
+    height: 7px!important;
+    background-color: #CECECE;
+    border-radius: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    border: unset;
+}
+.black-arrow-btn{
+    color: white;
+    background-color: black;
+    padding: 8px 25px;
+    padding-left: 15px;
+    
+}
+.hero_sec_left_btn{
+    margin-top: 30px;
+}
+.hero_sec_left_title{
+    margin-bottom: 20px;
+}
+.black-arrow-btn i{
+    margin-left: 5px;
+    padding-top: 5px;
+}
+a.black-arrow-btn:hover{
+    color: white;
+    text-decoration: none;
+}
+/* Product style */
+.smartphone_product_wrapper{
+    padding: 20px 30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.smartphone_seeall_btn a{
+    color: orange;
+    text-decoration: none;
+}
+
+/* Categories Style */
+
+.categories_box{
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 10px;
+}
